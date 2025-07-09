@@ -1,0 +1,220 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f1c2c256;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #1c8dd9d8;
+  text-align: center;
+  padding: 30px 15px;
+  color: #212121;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+header span {
+  color: #5069ca;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+/* Section Default */
+section {
+  padding: 30px 20px;
+  max-width: 1100px;
+  margin: auto;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* About Section */
+.intro-section {
+  background: #70b7de92;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-box img {
+  width: 200px;
+  border-radius: 14px;
+  box-shadow: 0 5px 50px rgba(0,0,0,0.2);
+}
+
+.about-box {
+  max-width: 600px;
+}
+
+.cv-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #1edbed;
+  color: #000;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Skills Section */
+.skills-section {
+  background: #e3f2fd;
+}
+
+.skills-section h2 {
+  color: #1565c0;
+}
+
+.skills-grid {
+  display: grid;
+  gap: 70px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 4fr));
+  margin-top: 50px;
+}
+
+.skill {
+  background: #bbdefb;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 3px 15px rgba(100, 82, 82, 0.1);
+}
+
+/* Clubs Section */
+.clubs-section {
+  background: #fce4ec;
+}
+
+.clubs-section h2 {
+  color: #ad1457;
+}
+
+.clubs {
+  display: flex;
+  justify-content: center;
+  gap: 165px;
+  margin-top: 60px;
+}
+
+.circle {
+  width: 240px;
+  height:240px;
+  background: #f8bbd0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+}
+
+/* Education Section */
+.education-section {
+  background: #e8f5e9;
+}
+
+.education-section h2 {
+  color: #2e7d32;
+}
+
+.edu-boxes {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 3fr));
+  margin-top: 30px;
+}
+
+.edu-box {
+  background: #c8e6c9;
+  padding: 60px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Projects Section */
+.projects-section {
+  background: #f3e5f5;
+}
+
+.projects-section h2 {
+  color: #691b9ae7;
+}
+
+.project-grid {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 3fr));
+  margin-top: 20px;
+}
+
+.project {
+  background: #e1bee7;
+  padding: 2px;
+  border-radius: 14px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+.contact-section {
+  background: #fff3e0;
+}
+
+.contact-section h2 {
+  color: #ef6c00;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-top: 25px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.contact-form button {
+  background: #ff9800;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.social-icons {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #ef6c00;
+  font-size: 1.9em;
+}
+
+/* Footer */
+footer {
+  background: #ffca28;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  color: #212121;
+}
